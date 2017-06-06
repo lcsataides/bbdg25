@@ -1,0 +1,25 @@
+.icons {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+  margin: 0.5em;
+  padding: 0.5em;
+  width: 24px;
+}
+
+.behance-logo {
+  background-image: url('./../../images/icons/behance.svg');
+  position: relative;
+  top: 4px;
+}
+
+.facebook-logo {
+  background-image: url('./../../images/icons/facebook.svg');
+}
+
+.linkedin-logo {
+  background-image: url('./../../images/icons/linkedin.svg');
+}

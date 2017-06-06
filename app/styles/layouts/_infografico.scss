@@ -1,0 +1,77 @@
+.bienal {
+  @include section-margins;
+}
+
+.infografico {
+  .content-title {
+    margin: 2em 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .infografico-catalogo,
+  .infografico-categorias,
+  .infografico-juri,
+  .infografico-selecionados {
+    margin: 3em 0;
+  }
+
+  .infografico-box {
+    background: linear-gradient($grey-regular, $grey-light);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 1em 0;
+    transition: background 0.1s ease-out;
+
+    h2 {
+      font-weight: 700;
+      color: transparent;
+    }
+
+    &:hover {
+      background: $grey-dark;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+
+  .infografico-img {
+    z-index: -1;
+    position: absolute;
+  }
+
+  .infografico-juri {
+    margin: 2em 0;
+
+    .infografico-img {
+      left: 0;
+    }
+  }
+
+  .infografico-selecionados {
+
+    .infografico-img {
+      right: 25vw;
+      }
+    }
+
+  .infografico-categorias {
+
+    .infografico-box {
+      margin-top: 20em;
+    }
+
+    .infografico-img {
+      left: 50vw;
+      transform: translate(-50%);
+    }
+  }
+
+  .infografico-catalogo {
+
+    .newsletter-title {
+      margin-top: 0;
+    }
+  }
+
+}

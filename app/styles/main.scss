@@ -1,0 +1,39 @@
+// Foundation
+@import './../../node_modules/foundation-sites/scss/foundation';
+@include foundation-everything;
+// End Foudation
+
+// Swiper
+@import './../../node_modules/swiper/dist/css/swiper.min';
+
+// @import './../../node_modules/slick-carousel/slick/slick.scss';
+// @import './../../node_modules/slick-carousel/slick/slick-theme.scss';
+
+// Bourbon
+@import 'bourbon/bourbon';
+//
+
+@import './base/icons';
+@import './base/mixins';
+@import './base/variables';
+@import './base/typography';
+
+@import './components/_buttons';
+@import './components/_timeline-box';
+@import './components/_titles';
+
+@import './layouts/_decisao';
+@import './layouts/_edicoes';
+@import './layouts/_entrance';
+@import './layouts/_header';
+@import './layouts/_infografico';
+@import './layouts/_inscricoes';
+@import './layouts/_rodape';
+@import './layouts/_thanks';
+@import './layouts/_timeline';
+@import './layouts/_welcome';
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}

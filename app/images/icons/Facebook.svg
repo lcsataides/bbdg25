@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Social/Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32.006625,15 L15.993375,15 C15.444375,15 15,15.444375 15,15.993375 L15,32.006625 C15,32.555625 15.444375,33 15.993375,33 L24.61425,33 L24.61425,26.0295 L22.2675,26.0295 L22.2675,23.31375 L24.61425,23.31375 L24.61425,21.307875 C24.61425,18.983625 26.034,17.719125 28.1085,17.719125 C29.101875,17.719125 29.95575,17.791125 30.204375,17.824875 L30.204375,20.254875 L28.764375,20.254875 C27.639375,20.254875 27.42,20.794875 27.42,21.582375 L27.42,23.314875 L30.10875,23.314875 L29.76,26.037375 L27.42,26.037375 L27.42,33 L32.006625,33 C32.555625,33 33,32.555625 33,32.006625 L33,15.993375 C33,15.444375 32.555625,15 32.006625,15" id="path-1"></path>
+    </defs>
+    <g id="Layout-v0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Layout-Desktop-1440" transform="translate(-1160.000000, -9887.000000)">
+            <g id="ENDING" transform="translate(0.000000, 9380.000000)">
+                <g id="Proj-Acadêmico" transform="translate(940.000000, 458.000000)">
+                    <g id="Um-projeto-de">
+                        <g id="Lucas-Ataides" transform="translate(0.000000, 34.000000)">
+                            <g id="Sociais" transform="translate(205.000000, 0.000000)">
+                                <g id="Icon/Social/Facebook">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Shape" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                    <g id="Fill/Secondary" mask="url(#mask-2)" fill-rule="evenodd" fill="#575557">
+                                        <rect id="Rectangle-5" x="0" y="0" width="48" height="48"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

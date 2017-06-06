@@ -1,0 +1,41 @@
+.section-title {
+  margin: 4em 0;
+
+  h1 {
+    margin-bottom: 0;
+    color: $silver;
+    opacity: 0.8;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  &:after {
+    content: " ";
+    position: absolute;
+    width: 5em;
+    border-bottom: 4px solid $grey-dark;
+    margin: 2em 0;
+  }
+}
+
+.nav-indicator {
+  display: block;
+  margin: -4em auto;
+  text-align: center;
+  width: 300px;
+
+  h5 {
+    font-weight: 700;
+    color: $grey-regular;
+  }
+
+  .indicator-line {
+    width: 4px;
+    height: 6em;
+    margin: 2em auto -4em;
+    background-color: $grey-regular;
+  }
+}

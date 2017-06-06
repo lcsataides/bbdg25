@@ -1,0 +1,108 @@
+{
+  "welcome" : {
+    "firstblock" : "As Bodas da Bienal são de prata, mas não se engane, o que nós estamos casando é que a cada par de ano, a BbDG - para os íntimos - é responsável por uma celebração do contexto evolutivo  do Design Brasileiro. Dessa forma, nada mais justo que celebrar com o evento sua tão brilhante jornada até aqui.",
+    "secondblock" : "Por que prata?",
+    "thirdblock" : "Bom, primeior porque são 25 anos de história. E a escolha da prata casa exatamente com o que propõe a Bienal Brasileira de Design Gráfico, ambas são responsáveis por desenhar contextos.",
+    "fourthblock" : "Pois imagine só, o prata num livro de química tem número atômico 45, o Design Gráfico Brasileiro no ano de 1996 teve participação 45% no setor editorial maior que no ano anterior. A prata também é bijouteria e em seus contextos, uma máxima em identificação pessoal quando bem utilizada. A BdDG, em suas categorias, sempre celebrou as soluções em identidade visual possíveis.",
+    "fifthblock" : "Por tudo isso, e porque a banana também é prata, eis nosso convite para celebrar as bodas de prata da Bienal Brasileira de Design Gráfico. Sem nenhum escorregão."
+  },
+
+  "edicoes" : {
+    "tema1" : "Título do tema - Marcação de espaço",
+    "tema2" : "Título do tema - Marcação de espaço",
+    "tema3" : "Título do tema - Marcação de espaço",
+    "tema4" : "Título do tema - Marcação de espaço",
+    "tema5" : "Título do tema - Marcação de espaço",
+    "tema6" : "Título do tema - Marcação de espaço",
+    "tema7" : "Título do tema - Marcação de espaço",
+    "tema8" : "Título do tema - Marcação de espaço",
+    "tema9" : "Título do tema - Marcação de espaço",
+    "tema10" : "Título do tema - Marcação de espaço",
+    "tema11" : "Título do tema - Marcação de espaço",
+    "tema12" : "Título do tema - Marcação de espaço"
+  },
+
+  "infografico" : {
+    "juri" : "Geralmente são escolhidos, para cada trabalho enviado, 3 jurados que de alguma forma estão inseridos no contexto da categoria, isto é, se ele é especializado em embalagens, editorial ou digital, por exemplo, muito possivelmente ficará responsável por avaliar os trabalhos desta categoria com outros 2 colegas os quais ele não fica sabendo.",
+    "juri_curiosidade" : "Vinte e cinto jurados da edição de 1998 eram associados",
+
+   "selecionados" : "O seu trabalho só é selecionado ou para o catálogo ou para a exposição mediante a aprovação de 2 dos três jurados que costumam decidir também quais destaques merecem ir para a exposição. E geralmente, depois de selecionado, você precisa enviar o material para ser adicionado nos registros - mesmo quando era tudo meio analógico, afinal, né? 25 anos…",
+   "selecionados_curiosidade" : "Só pouco mais que 25% dos trabalhos que são selecionados aparecem na exposição",
+
+   "categorias" : "Nem sempre foram as memas categorias - inclusive, porque o design é uma evolução sem precedentes, mas a visão geral foi que sempre contemplasse a maior variedade possível de peças, mesmo que o trabalho fosse uma exposição, por exemplo.",
+   "categorias_curiosidade" : "Na última edição - de 2017 - nós tivemos 25(-13) categorias!",
+   "categorias2" : "É. Nem tudo é tão 25 assim.",
+
+   "catalogo" : "Os catálogos contém todos os projetos que foram selecionados, porém a Bienal Brasileira de Design Gráfico sempre precisou contar com os associados para fazer com que a BBDG de fato acontecesse. Sendo assim, apenas nas últimas edições - da 9a edição até agora - com o apoio da Blunch é que foi possível uma distribuição melhorada.",
+   "catalogo_heading" : "Você tem interesse em adquirir um catálogo?"
+  },
+
+  "content" : {
+      "primeira" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "segunda" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "terceira" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "quarta" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "quinta" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "sexta" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "setima" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "oitava" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "nona" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "decima" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "decima-primeira" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    },
+      "decima-segunda" : {
+      "inscritos" : "numeral",
+      "trabalhos" : "numeral",
+      "comparacao" : "Alguma curiosidade maneira"
+    }
+  },
+
+  "inscricoes" : {
+    "instruction": "Insira aqui seu e-mail",
+    "question" : "Você quer se inscrever?",
+    "paragraph" : "Olha, não exatamente dá para inscrever seu projeto agora. Porém, deixa seu e-mail com a gente que nós avisaremos quaisquer sejam as novidades, eventos, bodas de ouro e  muito mais do que deve estar por vir, porque 25 anos é só um longo começo :)"
+  }
+}

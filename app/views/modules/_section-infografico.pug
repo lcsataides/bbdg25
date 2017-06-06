@@ -1,0 +1,45 @@
+section.bienal(data-magellan-target="bienal")
+  #bienal.nav-indicator
+    h5 BBDG __ A estrutura
+    .indicator-line
+  .row
+    .section-title
+      h1 O Evento
+      h3 Do júri até o catálogo, como a BBDG é construída
+
+    .infografico
+      .nav-infografico
+        a
+          span.dash-indicator
+
+      .infografico-juri.row
+        h2.content-title O júri
+        img(class="infografico-img" src="./../../images/infografico/juri-apito.png" alt="Apito prateado, ilustra o júri ironicamente")
+        p.content-paragraph.medium-6.medium-offset-6.columns= infografico.juri
+        .infografico-box.medium-8.medium-offset-4.columns
+          h2= infografico.juri_curiosidade
+
+      .infografico-selecionados.row
+        h2.content-title Os selecionados
+        img(class="infografico-img" src="./../../images/infografico/selecionados-garra.png" alt="Garra com aspecto prateado, ilustra quem é selecionado ou não")
+        p.content-paragraph.medium-6.columns.row= infografico.selecionados
+        .infografico-box.medium-8
+          h2= infografico.selecionados_curiosidade
+
+      .infografico-categorias.row
+        h2.content-title As Categorias
+        img(class="infografico-img" src="./../../images/infografico/categorias-embalagem.png" alt="Embalagem em alumínio genérico, ilustra a categoria de embalagem")
+        p.content-paragraph.medium-4.columns= infografico.categorias
+        .infografico-box.medium-8.columns
+          h2= infografico.categorias_curiosidade
+          p= infografico.categorias2
+
+      .infografico-catalogo.row
+        h2.content-title O catálogo
+        .row
+          .medium-6.columns
+            p.content-paragraph= infografico.catalogo
+          .medium-6.columns
+            h3.newsletter-title= infografico.catalogo_heading
+            button(class='btn btn-ghost' href='https://www.google.com.br') Estante Virtual
+            button(class='btn btn-ghost' href='https://www.blucher.com.br/') Link Editora

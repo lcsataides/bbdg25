@@ -1,0 +1,26 @@
+.entrance {
+  @include section-margins;
+
+  .entrance-logo {
+    display: block;
+    margin: 4em auto;
+  }
+
+  .entrance-heading {
+    width: 100vw;
+
+    .fita {
+      position: absolute;
+    }
+
+    .f-direita {
+      z-index: 1;
+      left: 75vw;
+    }
+
+    .f-esquerda {
+      top: 40vh;
+      right: 75vw;
+    }
+  }
+}

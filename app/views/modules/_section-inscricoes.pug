@@ -1,0 +1,17 @@
+section.inscricoes(data-magellan-target="inscricoes")
+  .row
+    #inscricoes.nav-indicator
+      h5 BBDG __ As Inscrições
+      .indicator-line
+    .section-title
+      h1 Inscrições
+
+    .row.inscricoes-content
+      .inscricoes-paragraph.large-6.columns
+        h3= inscricoes.question
+        p= inscricoes.paragraph
+      .inscricoes-form.large-6.columns
+        form
+          h3.mail-title= inscricoes.instruction
+          input(class='input-mail' type='email' label='mail' name='name' placeholder='seunome@provedor.com.br' required)
+          button(class='btn btn-ghost' type='button' submit) Enviar

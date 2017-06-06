@@ -1,0 +1,30 @@
+.timeline-box {
+  margin: 1em 0;
+}
+
+
+.timeline-numbers {
+  display: block;
+
+  .tl-title {
+    color: $grey-regular;
+    float: left;
+    font-weight: 700;
+    margin-right: 3em;
+    width: 50%;
+  }
+
+  .tl-estatistica {
+    float: right;
+  }
+}
+
+.timeline-curious {
+  @include shadow-box;
+  margin: 2em;
+  padding: 3em;
+
+  h3 {
+    margin: 0;
+  }
+}

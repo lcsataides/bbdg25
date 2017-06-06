@@ -1,0 +1,13 @@
+.thanks {
+  @include section-margins;
+
+  .thanks-img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .thanks-title {
+    width: 75%;
+    text-align: center;
+  }
+}

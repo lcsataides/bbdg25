@@ -1,0 +1,20 @@
+.top-bar-title {
+  padding: 1em;
+}
+
+.navigation-list {
+  display: inline-block;
+  padding: 0 1em;
+
+  .menu-item {
+    color: $grey;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1em;
+    padding: 1em;
+    text-decoration: none;
+
+    &.active {
+      font-weight: 700;
+    }
+  }
+}

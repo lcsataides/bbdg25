@@ -1,0 +1,61 @@
+body,
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+	color: $grey-dark;
+  font-size: 136px;
+  font-weight: 700;
+	line-height: 1.15;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+h2 {
+	font-size: 68px;
+  font-weight: 700;
+	line-height: 1.24;
+	color: $grey;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: $grey;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+h4 {
+	font-size: 16px;
+  font-weight: 700;
+	line-height: 1.625;
+	color: $grey;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.625;
+	color: $grey;
+}
+
+h5 {
+	font-size: 14px;
+  font-weight: 700;
+	line-height: 1.5;
+	color: $grey-light;
+}

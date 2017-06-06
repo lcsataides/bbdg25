@@ -1,0 +1,72 @@
+.edicoes {
+  @include section-margins;
+
+  .edicoes-balao {
+    position: absolute;
+    display: block;
+    width: 100%;
+
+    & > * {
+      position: relative;
+    }
+
+    .balao_dir {
+      top: 30vh;
+      left: 85vw;
+    }
+
+    .balao_esq {
+      top: 50vh;
+      right: 25vh;
+    }
+
+    .balao_esq-fundo {
+      z-index: -1;
+      left: 60vw;
+      top: -15vh;
+    }
+
+    .balao_dir-fundo {
+      right: -5vw;
+      top: -5vh;
+      z-index: -1;
+    }
+  }
+}
+
+.edicoes-carousel {
+
+  .edicoes-carousel_nav-backward,
+  .edicoes-carousel_nav-foward {
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+  }
+
+  .edicoes-carousel_nav-backward {
+    left: 0px;
+  }
+
+  .edicoes-carousel_nav-foward {
+    right: 0px;
+  }
+
+  .edicoes-carousel_content {
+    padding: 1em;
+  }
+
+  .edicoes-carousel_box {
+    @include shadow-box;
+    display: flex;
+    height: 272px;
+    background-color: white;
+    padding: 1em;
+    // margin: 0 1em;
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+}

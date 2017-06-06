@@ -1,0 +1,16 @@
+// GENERIC SPACING
+@mixin section-margins {
+  margin-top: 7em;
+  margin-bottom: 7em;
+}
+
+// SHADOW-BOX
+
+@mixin shadow-box {
+  background-color: #fff;
+  box-shadow: 0 3px 10px 0 $shadow;
+
+  &:hover {
+    box-shadow: 0 5px 15px 0 $shadow;
+  }
+}

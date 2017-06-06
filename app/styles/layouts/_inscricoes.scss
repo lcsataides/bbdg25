@@ -1,0 +1,42 @@
+.inscricoes {
+  @include section-margins;
+  background-color: $grey-dark;
+
+  .section-title {
+    text-align: center;
+  }
+
+  .inscricoes-content {
+    margin: 4em 0;
+
+    h3 {
+      color: $silver;
+      margin-bottom: 1em;
+    }
+
+    p {
+      color: $grey-light;
+    }
+
+    .inscricoes-form {
+
+      .input-mail {
+        background: transparent;
+        border: 0;
+        border-bottom: 4px solid $silver;
+        box-shadow: 0 3px 10px 0 $shadow;
+        padding: 2em;
+        color: $grey;
+
+        &:hover, &:active, &:focus {
+          color: $grey-light;
+        }
+      }
+
+      button {
+        float: right;
+        margin: 0;
+      }
+    }
+  }
+}

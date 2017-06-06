@@ -1,0 +1,74 @@
+.timeline-nav {
+  left: 10vw;
+  position: absolute;
+  z-index: 2;
+
+  .timeline-nav-list {
+    list-style: none;
+    width: 128px;
+    margin: 0;
+  }
+
+  .timeline-nav-item {
+    font-family: Work Sans, sans-serif;
+
+    a {
+      color: $grey-regular;
+      text-decoration: none;
+    }
+
+    .navigation-dash {
+      background-color: $grey-regular;
+      display: inline-block;
+      height: 4px;
+      margin-right: .5em;
+      text-align: right;
+      vertical-align: middle;
+      width: 3em;
+
+      &.active {
+        background-color: $grey-dark;
+        width: 5em;
+      }
+    }
+
+    &:hover {
+      color: $grey-dark;
+      font-weight: 700;
+
+      .navigation-dash {
+        color: $grey-dark;
+        width: 4em;
+      }
+    }
+  }
+}
+
+.timeline-content {
+  .timeline-title {
+    h1 {
+      text-transform: uppercase;
+      color: $grey-light;
+      opacity: 0.85;
+    }
+  }
+
+  .highlight-img {
+    position: relative;
+    top: -100px;
+    z-index: -1;
+  }
+
+  .img-right {
+    left: 35%;
+  }
+
+  .img-left {
+    right: 35%;
+  }
+
+  .highlight-theme {
+    position: relative;
+    top: -200px;
+  }
+}
