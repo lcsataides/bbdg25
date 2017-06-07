@@ -1,15 +1,14 @@
 header
   div(data-sticky-container)
-    div(class="top-bar" data-sticky  data-margin-top="0")
-      .top-bar-title
+      .top-bar(data-sticky data-margin-top="0" data-options="stickyOn: small")
+        .top-bar-title
           span.bbdg25-title BBDG 25
           //- img(src="#" class="bbdg25-logo")
 
-      .top-bar-right
-        div(data-magellan)
-          span(data-responsive-toggle="responsive-menu" data-hide-for="medium")
-            button(class="menu-icon dark" type="button" data-toggle)
-          ul.navigation-list.menu.responsive-menu
+        nav.nav-container(data-magellan)
+          span(data-responsive-toggle="responsive-menu" data-hide-for="large"  data-animate="fade-in")
+            button(id="nav-toggle" class="icons-l menu-nav" type="button" data-toggle="responsive-menu")
+          ul#responsive-menu.navigation-list.vertical.medium-horizontal.menu
             li
               a(href="#entrance" class="menu-item") Home
             li

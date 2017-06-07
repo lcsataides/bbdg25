@@ -33,7 +33,7 @@ h3 {
 	font-size: 26px;
 	font-weight: 700;
 	line-height: 1.5;
-	color: $grey;
+	color: $silver;
   margin-top: 24px;
   margin-bottom: 0;
 }
@@ -50,12 +50,19 @@ h4 {
 p {
 	font-size: 18px;
 	line-height: 1.625;
-	color: $grey;
+	color: $silver;
 }
 
 h5 {
 	font-size: 14px;
   font-weight: 700;
 	line-height: 1.5;
-	color: $grey-light;
+	color: $white-shade;
+}
+
+a, button {
+	color: $silver;
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
 }

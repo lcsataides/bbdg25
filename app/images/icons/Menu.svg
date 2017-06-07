@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Nav/Basic/Menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.731773,18 C12.7753412,18 12,17.1045695 12,16 C12,14.8954305 12.7753412,14 13.731773,14 L34.268227,14 C35.2246588,14 36,14.8954305 36,16 C36,17.1045695 35.2246588,18 34.268227,18 L13.731773,18 Z M13.731773,26 C12.7753412,26 12,25.1045695 12,24 C12,22.8954305 12.7753412,22 13.731773,22 L34.268227,22 C35.2246588,22 36,22.8954305 36,24 C36,25.1045695 35.2246588,26 34.268227,26 L13.731773,26 Z M13.731773,34 C12.7753412,34 12,33.1045695 12,32 C12,30.8954305 12.7753412,30 13.731773,30 L34.268227,30 C35.2246588,30 36,30.8954305 36,32 C36,33.1045695 35.2246588,34 34.268227,34 L13.731773,34 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Nav/Basic/Menu">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Fill/Primary" mask="url(#mask-2)" fill="#A09EA0">
+                <rect id="Rectangle-5" x="0" y="0" width="48" height="48"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

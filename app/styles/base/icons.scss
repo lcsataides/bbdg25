@@ -10,6 +10,12 @@
   width: 24px;
 }
 
+.icons-l {
+  @extend .icons;
+  width: 48px;
+  height: 48px;
+}
+
 .behance-logo {
   background-image: url('./../../images/icons/behance.svg');
   position: relative;
@@ -22,4 +28,8 @@
 
 .linkedin-logo {
   background-image: url('./../../images/icons/linkedin.svg');
+}
+
+.menu-nav {
+  background-image: url('./../../images/icons/menu.svg');
 }

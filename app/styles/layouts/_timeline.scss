@@ -13,12 +13,12 @@
     font-family: Work Sans, sans-serif;
 
     a {
-      color: $grey-regular;
+      color: $silver;
       text-decoration: none;
     }
 
     .navigation-dash {
-      background-color: $grey-regular;
+      background-color: $silver;
       display: inline-block;
       height: 4px;
       margin-right: .5em;
@@ -48,7 +48,7 @@
   .timeline-title {
     h1 {
       text-transform: uppercase;
-      color: $grey-light;
+      color: $white-shade;
       opacity: 0.85;
     }
   }
