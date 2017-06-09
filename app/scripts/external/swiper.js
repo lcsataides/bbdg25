@@ -7,7 +7,7 @@ let edicoesCarousel = new Swiper('.carousel-container', { // eslint-disable-line
   nextButton: '.edicoes-carousel_nav-foward',
   prevButton: '.edicoes-carousel_nav-backward',
   breakpoints: {
-    1040: {
+    1200: {
       slidesPerView: 4,
     },
     768: {
@@ -18,3 +18,4 @@ let edicoesCarousel = new Swiper('.carousel-container', { // eslint-disable-line
     },
   },
 });
+

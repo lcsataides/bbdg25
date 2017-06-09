@@ -8,18 +8,18 @@
   },
 
   "edicoes" : {
-    "tema1" : "Título do tema - Marcação de espaço",
-    "tema2" : "Título do tema - Marcação de espaço",
-    "tema3" : "Título do tema - Marcação de espaço",
-    "tema4" : "Título do tema - Marcação de espaço",
-    "tema5" : "Título do tema - Marcação de espaço",
-    "tema6" : "Título do tema - Marcação de espaço",
-    "tema7" : "Título do tema - Marcação de espaço",
-    "tema8" : "Título do tema - Marcação de espaço",
-    "tema9" : "Título do tema - Marcação de espaço",
-    "tema10" : "Título do tema - Marcação de espaço",
-    "tema11" : "Título do tema - Marcação de espaço",
-    "tema12" : "Título do tema - Marcação de espaço"
+    "ano1" : "1992",
+    "ano2" : "1994",
+    "ano3" : "1996",
+    "ano4" : "1998",
+    "ano5" : "2000",
+    "ano6" : "2002",
+    "ano7" : "2004",
+    "ano8" : "2006",
+    "ano9" : "2009",
+    "ano10" : "2013",
+    "ano11" : "2015",
+    "ano12" : "2017"
   },
 
   "infografico" : {
