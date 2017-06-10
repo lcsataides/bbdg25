@@ -3,6 +3,17 @@
   position: absolute;
   z-index: 2;
 
+  @media #{$small-only} {
+    left: 5vw;
+    top: 0;
+    display: inline-block;
+
+    &:hover {
+      @include shadow-box;
+      background-color: $white-shade;
+    }
+  }
+
   .timeline-nav-list {
     list-style: none;
     width: 14em;

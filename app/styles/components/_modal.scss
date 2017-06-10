@@ -10,7 +10,7 @@
 
   .modal-foward {
     @include shadow-box;
-    padding: 2em;
+    padding: 1em 2em;
     color: $grey;
     border-bottom: 4px solid transparent;
   }

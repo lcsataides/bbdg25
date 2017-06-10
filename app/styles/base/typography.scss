@@ -19,7 +19,7 @@ h1 {
   margin-top: 64px;
   margin-bottom: 64px;
 
-	@media #{$small-up} {
+	@media #{$medium-up} {
 		font-size: 136px;
 	}
 }
@@ -32,7 +32,7 @@ h2 {
   margin-top: 24px;
   margin-bottom: 24px;
 
-	@media #{$small-up} {
+	@media #{$medium-up} {
 		font-size: 68px;
 	}
 }
@@ -45,7 +45,7 @@ h3 {
   margin-top: 24px;
   margin-bottom: 0;
 
-	@media #{$small-up} {
+	@media #{$medium-up} {
 		font-size: 26px;
 	}
 }
@@ -60,7 +60,7 @@ h4 {
 }
 
 p {
-	@media #{$small-up} {
+	@media #{$medium-up} {
 		font-size: 18px;
 	}
 
@@ -85,5 +85,6 @@ a, button {
 
 	&:hover, &:active, &focus {
 		text-decoration: none;
+		color: $grey-dark;
 	}
 }

@@ -69,9 +69,16 @@
 
   .infografico-catalogo {
 
-    .newsletter-title {
-      margin-top: 0;
+    .newsletter-form {
+      .newsletter-title {
+        margin-top: 0;
+      }
+
+     button {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0.5em;
+     }
     }
   }
-
 }

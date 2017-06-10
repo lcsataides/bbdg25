@@ -40,6 +40,10 @@ section.bienal(data-magellan-target="bienal")
           .medium-6.columns
             p.content-paragraph= infografico.catalogo
           .medium-6.columns
-            h3.newsletter-title= infografico.catalogo_heading
-            button(class='btn btn-ghost' href='https://www.google.com.br') Estante Virtual
-            button(class='btn btn-ghost' href='https://www.blucher.com.br/') Link Editora
+            .newsletter-form
+              h3.newsletter-title= infografico.catalogo_heading
+              .row
+                .small-12.medium-6.column
+                  a(class='btn btn-ghost' href='https://www.google.com.br') Estante Virtual
+                .small-12.medium-6.column
+                  a(class='btn btn-ghost' href='https://www.blucher.com.br/') Link Editora
