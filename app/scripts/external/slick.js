@@ -1,30 +1,35 @@
-$('.edicoes-carousel_content').slick({
-  infinite: false,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  // dots: true,
-  // pagination: false,
-  // dotsClass: 'edicoes-carousel_nav-indicator',
-  accessiblity: true,
-  zIndex: -1,
+export function slick() { // eslint-disable-line import/prefer-default-export
+  $('.edicoes-carousel_content').slick({
+    infinite: false,
+    arrows: false,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    accessiblity: true,
+    dots: true,
+    dotsClass: 'edicoes-carousel_nav-indicator',
+    zIndex: -2,
 
-  responsive: [{
-    breakpoint: 1024,
-    settings: {
-      slidesToShow: 4,
-      infinite: true,
-    },
+    responsive: [{
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 4,
+        infinite: true,
+      },
 
-  }, {
+    }, {
 
-    breakpoint: 600,
-    settings: {
-      slidesToShow: 3,
-      dots: true,
-    },
+      breakpoint: 720,
+      settings: {
+        accessiblity: true,
+        slidesToShow: 2,
+      },
 
-  }, {
-    breakpoint: 300,
-    settings: 'unslick',
-  }],
-});
+    }, {
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+      },
+    }],
+  });
+}

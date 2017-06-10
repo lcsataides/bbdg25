@@ -2,8 +2,11 @@
   @include section-margins;
 
   .entrance-logo {
+    width: 40em;
     display: block;
     margin: 4em auto;
+    position: relative;
+    z-index: 0;
   }
 
   .entrance-heading {
@@ -19,7 +22,7 @@
     }
 
     .f-esquerda {
-      top: 40vh;
+      top: 90vh;
       right: 75vw;
     }
   }

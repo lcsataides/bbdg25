@@ -1,7 +1,6 @@
 .timeline-box {
-  margin: 1em 0;
+  margin: .5em 0;
 }
-
 
 .timeline-numbers {
   display: block;
@@ -9,19 +8,31 @@
   .tl-title {
     color: $silver;
     float: left;
-    font-weight: 700;
-    margin-right: 3em;
+    margin-right: 2em;
     width: 50%;
+
+    &:hover {
+      background-color: $white-shade;
+    }
   }
 
   .tl-estatistica {
+    color: $grey-regular;
     float: right;
+
+    &:hover {
+      color: $grey-dark;
+    }
+  }
+
+  .tl-place {
+    display: inline-block;
   }
 }
 
 .timeline-curious {
   @include shadow-box;
-  margin: 2em;
+  margin: 1em 2em;
   padding: 3em;
 
   h3 {

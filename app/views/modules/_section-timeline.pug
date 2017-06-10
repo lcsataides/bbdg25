@@ -3,9 +3,9 @@ section.timeline(data-magellan-target="timeline")
     h5 BBDG __ A evolução das Edições
     .indicator-line
 
-  div(class='timeline-nav' data-sticky-container)
+  div(class='timeline-nav' data-sticky-container )
     div(class='sticky' data-sticky data-margin-top="10" data-anchor="tl-content")
-      ul.timeline-nav-list
+      ul.timeline-nav-list(data-magellan data-options="data-active-class:active")
         - for (var x = 1; x < 13; x++)
           li.timeline-nav-item
             a(href="#edicao"+x)
@@ -16,14 +16,14 @@ section.timeline(data-magellan-target="timeline")
   .timeline-content
     #tl-content.wrapper.row
         include ./timeline/edicao1.pug
-        //- include ./timeline/edicao2.pug
-        //- include ./timeline/edicao3.pug
-        //- include ./timeline/edicao4.pug
-        //- include ./timeline/edicao5.pug
-        //- include ./timeline/edicao6.pug
-        //- include ./timeline/edicao7.pug
-        //- include ./timeline/edicao8.pug
-        //- include ./timeline/edicao9.pug
-        //- include ./timeline/edicao10.pug
-        //- include ./timeline/edicao11.pug
-        //- include ./timeline/edicao12.pug
+        include ./timeline/edicao2.pug
+        include ./timeline/edicao3.pug
+        include ./timeline/edicao4.pug
+        include ./timeline/edicao5.pug
+        include ./timeline/edicao6.pug
+        include ./timeline/edicao7.pug
+        include ./timeline/edicao8.pug
+        include ./timeline/edicao9.pug
+        include ./timeline/edicao10.pug
+        include ./timeline/edicao11.pug
+        include ./timeline/edicao12.pug

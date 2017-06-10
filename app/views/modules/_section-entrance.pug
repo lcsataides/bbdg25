@@ -3,14 +3,14 @@ section#entrance.entrance(data-magellan-target="entrance")
     img(src='./../../images/entrance/fita--01.png' alt='Fita da entrada cortada à direita').fita.f-direita
     img(src='./../../images/entrance/fita--02.png' alt='Fita da entrada cortada à esquerda').fita.f-esquerda
 
-  img(src='./../../images/logo/idv-horizontal.png').entrance-logo
+  img(src='./../images/logo/bbdg25-main.svg').entrance-logo
   .welcome-text
     .row
       .large-offset-1.large-5.columns
-        p= welcome.firstblock
-        p= welcome.secondblock
-        p= welcome.thirdblock
+        p.firstblock= welcome.firstblock
+        p.secondblock= welcome.secondblock
+        p.thirdblock= welcome.thirdblock
 
       .large-5.end.columns
-        p= welcome.fourthblock
-        p= welcome.fifthblock
+        p.fourthblock= welcome.fourthblock
+        p.fifthblock= welcome.fifthblock

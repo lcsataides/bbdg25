@@ -1,11 +1,23 @@
 .welcome {
+  @include section-margins;
+  height: 100vh;
+
   .welcome-intro {
-    text-align: center;
-    width: 40vw;
-    margin: 0 auto;
+    text-align: left;
+
+    h3 {
+      color: $silver;
+    }
   }
 
-  #welcome-img {
-    overflow: hidden;
+  .welcome-img {
+    top: -25vh;
+    left: -5%;
+    position: absolute;
+    z-index: 2;
+
+    img {
+      max-width: none;
+    }
   }
 }

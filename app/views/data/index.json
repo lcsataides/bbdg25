@@ -39,64 +39,79 @@
 
   "content" : {
       "primeira" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "25+3",
+      "trabalhos" : "25+3",
+      "local" : "MIS – São Paulo",
+      "curiosidade1" : "Todos os trabalhos eram de sócios da ADG",
+      "curiosidade2" : "Participantes eram apenas sócios da ADG e nessa primeira exposição, houve uma homenagem ao designer Luiz Cruz, como reconhecimento pelo seu trabalho. Seu legado é composto por um excelente portfólio, inúmeros artigos e textos sobre design e uma excelente dissertação de mestrado sobre Marketing e Design."
     },
       "segunda" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "+ de 80",
+      "trabalhos" : "300",
+      "local" : "MIS – São Paulo",
+      "curiosidade1":  "Duas seleções!",
+      "curiosidade2" : "Nessa segunda edição, houve uma mudança nos critérios de aceitação e seleção do material, resultando na implantação de duas categorias: mostra institucional, em que o associado selecionava os projetos desenvolvidos nos dois últimos anos para compor os painéis, e mostra seletiva, em que os trabalhos inscritos eram analisados por um júri composto por profissionais ligados ao meio, porém não necessariamente associados à ADG."
     },
       "terceira" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "1299",
+      "trabalhos" : "168",
+      "local" : "SESC Pompéia – São Paulo",
+      "curiosidade1" : "última edição EXCLUSIVA dos associados"
     },
       "quarta" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "1524",
+      "trabalhos" : "186",
+      "local" : "SESC Pompéia – São Paulo",
+      "curiosidade1" : "A vez dos não-associados!",
+      "curiosidade2" : "Em sua 4ª edição, a Bienal foi aberta pela primeira vez a participantes não associados à ADG. Essa mudança propiciou um aumento considerável no número de inscritos. Paralelamente, realizou a mostra “50 Projetos Brasileiros”, reunindo relevantes trabalhos de design desenvolvidos no país nas últimas cinco décadas do século XX."
     },
       "quinta" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "1536",
+      "trabalhos" : "281",
+      "local" : "SESC Pompéia – São Paulo",
+      "curiosidade2" : "Nessa edição, a ADG, em parceria com o Instituto Cultural Itaú, deu início ao Painel Histórico do Design Gráfico Brasileiro entre 1950 e 1970. A mostra seletiva recebeu 1.124 projetos, inscritos por um total de 278 escritórios de vários estados., Desse total, 259 foram selecionados por 5 júris profissionais, totalizando 21 integrantes"
     },
       "sexta" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "1700",
+      "trabalhos" : "321",
+      "local" : "SESC Pompéia – São Paulo",
+      "curiosidade1" : "O eventos contou com palestras e workshops de convidados internacionais."
     },
       "setima" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "2200",
+      "trabalhos" : "370",
+      "local" : "Memorial da América Latina – São Paulo",
+      "curiosidade2" : "Em 2004, a sétima Bienal da ADG Brasil trouxe 32 mil pessoas de diversos países ao Memorial da América Latina para visitar sua exposição."
     },
       "oitava" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "2306",
+      "trabalhos" : "309",
+      "local" : "Memorial da América Latina – São Paulo",
+      "curiosidade2" : "309 projetos foram selecionados da maior quantidade de trabalhos enviados até aquele momento à Bienal Brasileira do Design Gráfico: 2.306 inscrições."
     },
       "nona" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "1240",
+      "trabalhos" : "286",
+      "local" : "Centro Cultural São Paulo – São Paulo",
+      "curiosidade2" : "A 9ª edição da Bienal Brasileira do Design Gráfico esperou até 2009 para ser realizada em meio à celebração de 20 anos da ADG Brasil."
     },
       "decima" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "inscritos" : "1910",
+      "trabalhos" : "444",
+      "local" : "Memorial da América Latina – São Paulo",
+      "curiosidade2" : "Com a não realização da mostra em 2011, a décima edição da Bienal Brasileira de Design Gráfico assumiu a difícil tarefa de ampliar o registro do panorama da produção brasileira de design gráfico de 2 para 4 anos."
     },
-      "decima-primeira" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "onze" : {
+      "inscritos" : "1184",
+      "trabalhos" : "303",
+      "local" : "Espaço Ação da Cidadania – Rio de Janeiro",
+      "curiosidade2" : "A Bienal da ADG é realizada pela primeira vez na cidade do Rio de Janeiro, fazendo parte da SEMANA DESIGN RIO. (tem diversos videos disponiveis sobre essa bineal)"
     },
-      "decima-segunda" : {
-      "inscritos" : "numeral",
-      "trabalhos" : "numeral",
-      "comparacao" : "Alguma curiosidade maneira"
+      "doze" : {
+      "inscritos" : "-",
+      "trabalhos" : "500",
+      "local" : "BRASÍLIA (finalmente)",
+      "curiosidade2" : "Ano que celebra 25 anos de existência, a Bienal acontece pela primeira vez em Brasília, em uma realização conjunta da Associação dos Designers Gráficos – ADG Brasil e a Associação dos Designers Gráficos do Distrito Federal"
     }
   },
 
