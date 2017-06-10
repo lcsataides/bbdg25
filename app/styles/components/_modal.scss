@@ -1,0 +1,17 @@
+.modal {
+  padding: 2em 5em;
+  transition: all 0.4s ease-in;
+  text-align: center;
+
+  .modal-p {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .modal-foward {
+    @include shadow-box;
+    padding: 2em;
+    color: $grey;
+    border-bottom: 4px solid transparent;
+  }
+}

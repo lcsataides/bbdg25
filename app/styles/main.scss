@@ -3,11 +3,13 @@
 @include foundation-everything;
 // End Foudation
 
-// Swiper
-@import './../../node_modules/swiper/dist/css/swiper.min';
+// Motion UI
+@import './../../node_modules/motion-ui/motion-ui';
+@include motion-ui-transitions;
+@include motion-ui-animations;
+// End Motion uI
 
 @import './../../node_modules/slick-carousel/slick/slick.scss';
-// @import './../../node_modules/slick-carousel/slick/slick-theme.scss';
 
 // Bourbon
 @import 'bourbon/bourbon';
@@ -19,6 +21,7 @@
 @import './base/typography';
 
 @import './components/_buttons';
+@import './components/_modal';
 @import './components/_timeline-box';
 @import './components/_titles';
 

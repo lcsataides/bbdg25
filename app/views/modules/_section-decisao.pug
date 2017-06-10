@@ -10,6 +10,24 @@ section.decision
     .decision-make.small-centered
       .row
         .medium-6.columns
-          a(class="btn btn-ghost" href="#edicoes") Já fui em uma Bienal
+          a(class="btn btn-ghost" href="#edicoes" data-open="edicoes-nostalgia") Já fui em uma Bienal
         .medium-6.columns
-          a(class="btn btn-ghost" href="#timeline") Nunca fui em uma Bienal
+          a(class="btn btn-ghost" href="#infografico" data-open="bienal-estrutura") Nunca fui em uma Bienal
+
+
+
+#edicoes-nostalgia.reveal.large.modal.nostalgico(data-reveal data-close-on-click="true" data-animation-in="slide-in-up" data-animation-out="slide-in-down")
+  h2.modal-title Então você já foi em uma bienal? Que ótimo!
+  .modal-p
+    p Estamos muito felizes em saber disso! Aquela edição foi sensacional! Nós te encaminhamos para uma seção que faça você lembrar de todas as outras edições.
+    h3.modal-foward Feche esta janela e descubra a identidade visual da edição que você foi!
+  button.close-button(data-close aria-label="Fechar o Modal" type="button")
+    p(aria-hidden="true") Fechar
+
+#bienal-estrutura.reveal.large.modal.nostalgico(data-reveal data-close-on-click="true" data-animation-in="slide-in-up" data-animation-out="slide-in-down")
+  h2.modal-title O quê? É sua primeira vez conhecendo a BbDG?
+  .modal-p
+    p Então que tal entender direitinho o que é a Bienal brasileira de Design Gráfico? Nós te encaminhamos para o nosso min-guia da Bienal! Assim você entende como a Bienal é IN-CRÍ-VEL.
+    h3.modal-foward Feche esta janela e descubra a BbDG!
+  button.close-button(data-close aria-label="Fechar o Modal" type="button")
+    p(aria-hidden="true") Fechar
