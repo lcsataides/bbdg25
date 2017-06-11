@@ -1,12 +1,11 @@
 .welcome {
-  @include section-margins;
   height: 100vh;
 
   .welcome-intro {
     text-align: left;
 
     h3 {
-      color: $silver;
+      color: $grey-light;
     }
   }
 
@@ -14,10 +13,24 @@
     top: -25vh;
     left: -5%;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 
     img {
       max-width: none;
     }
+
+    .acessar {
+      position: relative;
+      left: 50%;
+      background-color: $white-shade;
+    }
+  }
+  .goto-site {
+    margin: 2em auto;
+    position: absolute;
+    bottom: 0;
+    left: 50vw;
+    transform: translateX(50%);
+    z-index: 2;
   }
 }

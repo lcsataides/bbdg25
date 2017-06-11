@@ -12,15 +12,8 @@
   }
 }
 
-.top-bar-title {
-  font-family: 'Work Sans', sans-serif;
-  color: $grey-light;
-  padding: 0.7rem 1rem;
-  border-bottom: 4px solid transparent;
-}
-
 .nav-container {
-  @media #{$medium-only, $small-only} {
+  @media #{$small-only} {
     .navigation-list {
       clear: both;
       margin-top: 5em;
@@ -32,7 +25,8 @@
   @media #{$large-up} {
     .navigation-list {
       margin-top: 0;
-      float: right;
+      display: flex;
+      justify-content: center;
     }
   }
 

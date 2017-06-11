@@ -76,10 +76,10 @@
   }
 
   .gradient-overlay {
-    background-image: transparent;
+    background-image: none;
     bottom: 0;
     display: flex;
-    height: 75%;
+    height: 95%;
     left: 0;
     position: absolute;
     width: 100%;
@@ -115,8 +115,62 @@
 .edicao10,
 .edicao11,
 .edicao12 {
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('./../../images/edicoes/edicao4.jpg');
+}
+
+.edicao1 {
+  position: relative;
+  background-image: url('./../../images/edicoes/capas/Capa-2aBienal.png');
+  z-index: 15;
+}
+
+.edicao2 {
+  background-image: url('./../../images/edicoes/capas/Capa-2aBienal.png');
+}
+
+.edicao3 {
+  background-image: url('./../../images/edicoes/capas/Capa-2aBienal.png');
+}
+
+.edicao4 {
+  background-image: url('./../../images/edicoes/capas/Capa-4aBienal.png');
+}
+
+.edicao5 {
+  background-image: url('./../../images/edicoes/capas/Capa-5aBienal-A.png');
+
+  &.versao-B{
+    background-image: url('./../../images/edicoes/capas/Capa-5aBienal-B.png');
+  }
+}
+
+.edicao6 {
+  background-image: url('./../../images/edicoes/capas/Capa-6aBienal.png');
+}
+
+.edicao7 {
+  background-image: url('./../../images/edicoes/capas/Capa-7aBienal.png');
+}
+
+.edicao8 {
+  background-image: url('./../../images/edicoes/capas/Capa-8aBienal.png');
+}
+
+.edicao9 {
+  background-image: url('./../../images/edicoes/capas/Capa-9aBienal.png');
+}
+
+.edicao10 {
+  background-image: url('./../../images/edicoes/capas/Capa-10aBienal.png');
+}
+
+.edicao11 {
+  background-image: url('./../../images/edicoes/capas/Capa-11aBienal.png');
+}
+
+.edicao12 {
+  background-image: url('./../../images/edicoes/capas/Capa-12aBienal.png');
 }

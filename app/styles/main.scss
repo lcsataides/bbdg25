@@ -9,6 +9,10 @@
 @include motion-ui-animations;
 // End Motion uI
 
+@import './../../node_modules/animate.css/animate.css';
+
+// @import './../../node_modules/onepage-scroll/onepage-scroll.css';
+
 @import './../../node_modules/slick-carousel/slick/slick.scss';
 
 // Bourbon

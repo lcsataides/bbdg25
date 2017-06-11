@@ -7,11 +7,15 @@
   "version": "0.0.1",
   "description": "25BBDG description",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "foundation-sites": "~6.2.3",
     "fullpage.js": "^2.9.4",
     "gsap": "^1.19.1",
+    "headspace": "^0.1.1",
     "jquery": "^2.2.4",
+    "jquery-ui": "^1.12.1",
     "jquery-ui-dist": "^1.12.1",
+    "onepage-scroll": "^1.3.0",
     "scrollmagic": "^2.0.5",
     "slick-carousel": "^1.6.0",
     "swiper": "^3.4.2"

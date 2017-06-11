@@ -83,7 +83,7 @@ a, button {
 	text-decoration: none;
 	text-transform: uppercase;
 
-	&:hover, &:active, &focus {
+	&:hover, &:active, &:focus, &:visited {
 		text-decoration: none;
 		color: $grey-dark;
 	}
